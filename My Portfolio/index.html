@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Rafiul Islam</title>
+  <meta name="description" content="Personal portfolio of Rafiul Islam, CSE student at Varendra University.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#home">Rafiul<span>.</span></a>
+    <nav aria-label="Sections">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch colour theme">Theme</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="home" class="hero">
+    <div>
+      <p class="eyebrow">CSE student · Varendra University</p>
+      <h1>Rafiul Islam<span class="dot">.</span></h1>
+      <p class="lead">I study <strong>Computer Science and Engineering</strong> at Varendra University and I enjoy turning problems into working programs. I like clean code, clear logic, and learning how things work underneath.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-side">
+      <figure class="photo">
+        <!-- PHOTO: to change it later, replace photo.jpg in this folder or change the src below. -->
+        <img id="profile-photo" alt="Photo of Rafiul Islam" width="340" height="374" src="photo.jpg">
+      </figure>
+    </div>
+  </div>
+
+  <section id="about" aria-labelledby="about-h">
+    <div class="sec-head"><h2 id="about-h">About me</h2><span class="sec-tag">who I am</span></div>
+    <div class="about">
+      <div>
+        <p>I am Rafiul Islam Rafi, a Computer Science and Engineering student at Varendra University with a passion for programming and problem-solving. I enjoy exploring new technologies, learning programming languages, and turning ideas into practical projects.</p>
+        <p>I like to understand a problem first, then choose the simplest solution that works. I am looking for internships, team projects, and chances to grow as a software developer.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>Studying</dt><dd>B.Sc. in Computer Science and Engineering</dd></div>
+        <div><dt>University</dt><dd>Varendra University</dd></div>
+        <div><dt>Based in</dt><dd>Bangladesh</dd></div>
+        <div><dt>Looking for</dt><dd>Internships and project work</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="skills" aria-labelledby="skills-h">
+    <div class="sec-head"><h2 id="skills-h">Technical skills</h2><span class="sec-tag">what I work with</span></div>
+    <div class="skills">
+      <div class="skill-group">
+        <h3>Programming languages</h3>
+        <ul class="chips lang"><li>C</li><li>C++</li><li>Java</li><li>Python</li><li>JavaScript</li><li>SQL</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Web basics</h3>
+        <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript (DOM)</li><li>Responsive layout</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>CS fundamentals</h3>
+        <ul class="chips"><li>Data structures</li><li>Algorithms</li><li>Object-oriented programming</li><li>Databases (DBMS)</li><li>Operating systems</li><li>Computer networks</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li><li>MySQL</li><li>MATLAB</li><li>Simulink</li><li>Linux command line</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" aria-labelledby="projects-h">
+    <div class="sec-head"><h2 id="projects-h">Projects</h2><span class="sec-tag">academic and personal work</span></div>
+    <div class="projects">
+      <article class="proj">
+        <div class="proj-top"><span class="kind">Web development</span></div>
+        <h3>Personal Portfolio Website</h3>
+        <p>A responsive website built with HTML, CSS and JavaScript that presents my skills, projects and education.</p>
+        <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+      </article>
+      <article class="proj">
+        <div class="proj-top"><span class="kind">Signal processing</span></div>
+        <h3>ECG Signal Processing Using MATLAB and Simulink</h3>
+        <p>A signal processing project that filters and analyses ECG signals in MATLAB and Simulink.</p>
+        <ul class="chips"><li>MATLAB</li><li>Simulink</li><li>Signal filtering</li></ul>
+      </article>
+      <article class="proj">
+        <div class="proj-top"><span class="kind">Application</span></div>
+        <h3>Calculator Application</h3>
+        <p>A calculator that handles everyday arithmetic with a clean, simple interface.</p>
+        <ul class="chips"><li>Arithmetic</li><li>Simple UI</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="interests" aria-labelledby="interests-h">
+    <div class="sec-head"><h2 id="interests-h">Interests</h2><span class="sec-tag">beyond the classroom</span></div>
+    <div class="interests">
+      <div class="interest"><h3>Problem solving</h3><p>Working through algorithm and logic problems to sharpen how I think about code.</p></div>
+      <div class="interest"><h3>Web development</h3><p>Building pages and small apps that people can open and use right away.</p></div>
+      <div class="interest"><h3>Learning new tech</h3><p>Reading documentation, trying new tools, and following how software keeps changing.</p></div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-h">
+    <div class="sec-head"><h2 id="contact-h">Contact</h2><span class="sec-tag">let's talk</span></div>
+    <div class="contact">
+      <div>
+        <p class="big">Have a project, an internship, or a question?</p>
+        <p>Send me a message and I will reply as soon as I can. I am happy to talk about code, collaboration, or opportunities.</p>
+        <div class="cta mail-cta">
+          <a class="btn primary" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=rafiul1604@gmail.com&amp;su=Hello%20Rafiul" target="_blank" rel="noopener">Email me</a>
+          <a class="btn ghost" href="mailto:rafiul1604@gmail.com">Open mail app</a>
+        </div>
+      </div>
+      <ul class="links">
+        <li><span class="lbl">Email</span><span class="val" id="email-val"><a href="mailto:rafiul1604@gmail.com">rafiul1604@gmail.com</a></span><button class="copy" type="button" data-copy="email-val">Copy</button></li>
+        <li><span class="lbl">GitHub</span><span class="val" id="gh-val"><a href="https://github.com/SrRafi16" target="_blank" rel="noopener">https://github.com/SrRafi16</a></span><button class="copy" type="button" data-copy="gh-val">Copy</button></li>
+        <li><span class="lbl">LinkedIn</span><span class="val" id="li-val"><a href="https://www.linkedin.com/in/rafiul-islam-7310aa325/" target="_blank" rel="noopener">https://www.linkedin.com/in/rafiul-islam-7310aa325/</a></span><button class="copy" type="button" data-copy="li-val">Copy</button></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Rafiul Islam</span>
+  <span>CSE · Varendra University</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
